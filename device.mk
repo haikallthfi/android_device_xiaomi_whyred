@@ -430,6 +430,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera_shim
 
+# SQlite
+PRODUCT_PACKAGES += \
+    sqlite3
+
 # Tethering
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay

@@ -28,6 +28,9 @@ DEVICE_PATH := device/xiaomi/whyred
 TARGET_BOOTLOADER_BOARD_NAME := sdm660
 TARGET_NO_BOOTLOADER := true
 
+# Broken Rules
+BUILD_BROKEN_DUP_RULES := true
+
 # Platform
 TARGET_BOARD_PLATFORM := sdm660
 
